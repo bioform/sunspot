@@ -2,6 +2,8 @@
 
 [![Build Status](https://secure.travis-ci.org/sunspot/sunspot.png)](http://travis-ci.org/sunspot/sunspot)
 
+Fixed issue related with time field presigion
+
 Sunspot is a Ruby library for expressive, powerful interaction with the Solr
 search engine. Sunspot is built on top of the RSolr library, which
 provides a low-level interface for Solr interaction; Sunspot provides a simple,
