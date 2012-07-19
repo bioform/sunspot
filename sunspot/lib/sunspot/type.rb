@@ -198,7 +198,7 @@ module Sunspot
     # UTC before indexing, and facets of Time fields always return times in UTC.
     #
     class TimeType < AbstractType
-      XMLSCHEMA = "%Y-%m-%dT%H:%M:%SZ"
+      XMLSCHEMA = "%Y-%m-%dT%H:%M:%S.%9NZ"
 
       def indexed_name(name) #:nodoc:
         "#{name}_d"
